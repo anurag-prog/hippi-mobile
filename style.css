@@ -1,0 +1,39 @@
+html{
+    scroll-behavior: smooth;
+}
+.fullscreen-landing
+{
+    background-image: url("background_waves2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: scroll center;
+    height: 100vh;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+.search-box
+{
+    height:50px;
+    width:500px
+}
+.subscribe-section
+{
+    background-image: url("background_waves2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: scroll center;
+    background-size: cover;
+
+}
+.subscribe-overlay 
+{ 
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+@media (max-width :576px){
+    .search-box{
+        width:300px
+    }
+}
